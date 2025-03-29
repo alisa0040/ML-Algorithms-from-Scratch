@@ -12,6 +12,18 @@ These implementations were created as part of my university coursework and perso
 
 
 
+### Gradient Descent for Linear Regression
+
+This implementation demonstrates the use of the Gradient Descent algorithm to optimize parameters for a simple linear regression model. The model is used to predict the target variable based on two input features. The algorithm minimizes the error between the predicted and actual values by iteratively adjusting the model parameters.
+
+Key points:
+- **Simple Linear Regression**: Predicts `y = θ₀ + θ₁ * X₁ + θ₂ * X₂`.
+- **Gradient Descent**: Updates parameters (`θ₀`, `θ₁`, `θ₂`) based on the gradients of the error.
+- **Implementation**: Built from scratch using only NumPy, with no external machine learning libraries.
+
+
+
+
 ## K-Means Image Compression
 
 This project implements the **K-Means** clustering algorithm from scratch to compress images by reducing their color palette while preserving visual quality.
